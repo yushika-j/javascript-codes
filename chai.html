@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Using focus and blur</title>
+    <script src="chai.js"></script>
+  </head>
+  <body>
+    <form id="myForm" action = "">
+      <p><label for="name">Name: </label>
+        <input type="text" id="name" placeholder="Enter name">
+      </p>
+      <p><label for="name">Email: </label>
+        <input type="text" id="email" placeholder="Enter email">
+      </p>
+      <p><label>Click here if you like this site: </label>
+        <input type="checkbox" id="like">
+      </p>
+      <p>
+        <label for="comments">Do you have any comments?</label><br>
+        <textarea id="comments" placeholder="Enter comments here"></textarea>
+      </p>
+
+      <p><input id="submit" type="submit" >
+      <input id="reset" type="reset"></p>
+    </form>
+    <p id="helpText"></p>
+  </body>
+</html>
