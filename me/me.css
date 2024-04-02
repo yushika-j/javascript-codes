@@ -1,9 +1,31 @@
 #btn{
     color: aquamarine;
     background-color: blue;
-    height:40px;
+    height:60px;
     width: 100px;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 690px;
+    top: 170px;
+}
+
+button{
+    color: aquamarine;
+    background-color: rgb(84, 95, 255);
+    height:60px;
+    width: 100px;
+    position: absolute;
+    left: 540px;
+    top: 170px;
+}
+
+h1{
+    font-size: 120px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.gay{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

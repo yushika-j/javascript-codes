@@ -1,0 +1,13 @@
+
+body {
+    background: linear-gradient(to right, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D);
+}
+
+h1{
+    margin-top:120px;
+    font-size: 120px;
+    top: 160px;
+    text-align: center;
+    color: white;
+    text-shadow: black;
+}
